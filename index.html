@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Number Pattern Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>NUMBER PATTERN GENERATOR</h1>
+  <div class="controls">
+    <select id="patternType">
+      <option value="pyramid">Number Pyramid</option>
+      <option value="reverse">Reverse Pyramid</option>
+      <option value="right">Right Half Pyramid</option>
+      <option value="left">Left Half Pyramid</option>
+      <option value="full">Full Pyramid</option>
+      <option value="invFull">Inverted Full Pyramid</option>
+      <option value="rhombus">Rhombus Pattern</option>
+      <option value="diamond">Diamond Pattern</option>
+      <option value="hourglass">Hourglass Pattern</option>
+      <option value="hollowSquare">Hollow Square</option>
+      <option value="hollowFull">Hollow Full Pyramid</option>
+      <option value="hollowInvFull">Hollow Inverted Full Pyramid</option>
+      <option value="hollowDiamond">Hollow Diamond</option>
+      <option value="hollowHourglass">Hollow Hourglass</option>
+      <option value="floyd">Floyd's Triangle</option>
+      <option value="pascal">Pascal's Triangle</option>
+    </select>
+    <div>
+        <span>Pattern Size:</span>
+        <span id="sizeLabel">5</span>
+    </div>
+    <input type="range" id="patternSize" min="3" max="15" value="5">
+    <button id="generateBtn">Generate Pattern</button>
+  </div>
+  <div class="pattern" id="output">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

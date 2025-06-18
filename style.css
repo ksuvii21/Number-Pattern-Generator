@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(to bottom, #000099, #00ffff);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.45);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* space between all elements */
+}
+
+select {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fffbfb;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  appearance: none;
+}
+
+select:focus {
+  box-shadow: 0 0 10px #2575fc;
+}
+
+select option {
+  background: #000;
+  color: #fff;
+}
+
+label {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+#sizeLabel {
+  display: block;  /* make value appear on next line */
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+input[type=range] {
+  width: 90%;  /* larger slider */
+  accent-color: #2575fc;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fffbfb;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.pattern {
+  background: rgba(0, 0, 0, 0.3); /* adjust to match background theme */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+  white-space: pre;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.pattern-box {
+  background-color: #ffffff;  /* or #f0f0f0 or any solid color you like */
+  color: #000000;            /* ensure text is visible */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+pre {
+  font-family: monospace;
+  background: none;
+}
