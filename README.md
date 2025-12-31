@@ -1,4 +1,4 @@
-### Number Pattern Generator ✨
+# Number Pattern Generator ✨
 ## Number Pattern Generator is a beginner-friendly C program that displays various number-based patterns. It helps users understand nested loops, conditionals, and how to structure outputs in the console. 📍
 
 ## Live at: [Link](https://ksuvii21.github.io/Number-Pattern-Generator/)
