@@ -1,5 +1,5 @@
 # Number Pattern Generator ✨
-## Number Pattern Generator is a beginner-friendly C program that displays various number-based patterns. It helps users understand nested loops, conditionals, and how to structure outputs in the console. 📍
+## Number Pattern Generator is a beginner-friendly JavaScript program that displays various number-based patterns. It helps users understand nested loops, conditionals, and how to structure outputs in the console. 📍
 
 ## Live at: [Link](https://ksuvii21.github.io/Number-Pattern-Generator/)
 
@@ -22,7 +22,7 @@ Generates different number patterns like:
 
 ## 🚀 How to Run
 - Clone the repository:
-git clone https://github.com/your-username/Number-Pattern-Generator.git
+git clone https://github.com/ksuvii21/Number-Pattern-Generator.git
 - Navigate to the project folder:
 cd Number-Pattern-Generator
 
